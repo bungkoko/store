@@ -84,7 +84,7 @@
 
                                  <div class="row clearfix">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5 form-control-label">
-                                        <label for="product_title">Ketersediaan Produk</label>
+                                        <label for="product_status">Ketersediaan Produk</label>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7">
                                        <select name="product_status" class="form-control show-tick">

@@ -524,6 +524,7 @@ $config['proxy_ips'] = '';
 
 /*Setting Folder Upload*/
 $config['upload_path_avatar']='/upload/avatar/';
+$config['upload_path_bank']='/upload/bank/';
 $config['upload_path_product']='/upload/product/';
 
 $config['allowed_types']='jpg|jpeg|png|gif';

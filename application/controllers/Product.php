@@ -34,6 +34,7 @@ class Product extends CI_Controller
             $this->form_validation->set_rules('categories', 'Kategori', 'required');
             $this->form_validation->set_rules('product_status', 'Ketersediaan', 'required');
             $this->form_validation->set_rules('product_price', 'Harga', 'required');
+            $this->form_validation->set_rules('product_status','Status','required');
             $this->form_validation->set_rules('product_description', 'Deskripsi', 'required');
 
             if ($this->form_validation->run() == true):

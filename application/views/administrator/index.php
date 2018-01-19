@@ -232,6 +232,8 @@
     <script src="<?php echo base_url(); ?>asset/js/pages/forms/editors.js"></script>
     <script src="<?php echo base_url(); ?>asset/js/pages/ui/modals.js"></script>
 
+  
+
     <script>
         $("#upload_image").fileinput({
             overwriteInitial: true,
@@ -249,6 +251,8 @@
             layoutTemplates: {main2: '{preview} ' + '<div style="text-align:center">' + ' {remove} {browse}'+'</div>'},
             allowedFileExtensions: ["jpg","jpeg", "png", "gif"]
           });
+
+         
 
     </script>
 
